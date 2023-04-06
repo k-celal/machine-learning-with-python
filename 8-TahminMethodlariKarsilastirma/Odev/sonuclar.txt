@@ -1,0 +1,41 @@
+# -*- coding: utf-8 -*-
+"""
+Created on Thu Apr  6 02:39:05 2023
+
+@author: Celal
+"""
+
+Tek parametreli 
+
+Linear
+R-squared (uncentered):                   0.942
+
+Polynomial
+R-squared (uncentered):                   0.759
+
+SVR
+R-squared (uncentered):                   0.770
+
+decision
+R-squared (uncentered):                   0.751
+
+random
+R-squared (uncentered):                   0.719
+
+-----------------------------------------------
+3 parametreli 
+
+Linear
+R-squared (uncentered):                   0.903
+
+Polynomial
+R-squared (uncentered):                   0.680
+
+SVR(scalerin yaptığı etkiden kaynaklanır)
+R-squared (uncentered):                   0.782
+
+decision
+R-squared (uncentered):                   0.679
+
+random
+R-squared (uncentered):                   0.713
