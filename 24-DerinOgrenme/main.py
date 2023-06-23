@@ -44,3 +44,28 @@ sc=StandardScaler()
 X_train=sc.fit_transform(x_train)
 X_test=sc.fit_transform(x_test)
 
+#Yapay Sinir Ağı
+
+import keras
+
+from keras.models import Sequential
+from keras.layers import Dense
+
+#problem lineerse gizli katmana ihtiyaç yok 
+# girişle ç
+classifier = Sequential()
+classifier.add(Dense(6,init= "uniform", activation="relu",input_dim=11))
+
+classifier.add(Dense(6,init= "uniform", activation="relu"))
+
+
+
+
+
+
+
+
+
+
+
+
