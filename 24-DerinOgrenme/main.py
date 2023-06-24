@@ -62,7 +62,7 @@ classifier.add(Dense(1, activation="sigmoid"))
 
 classifier.compile(optimizer='adam',loss= "binary_crossentropy" , metrics=["accuracy"])
 
-classifier.fit(X_train,y_train,epochs=100)
+classifier.fit(X_train,y_train,epochs=50)
 
 y_pred= classifier.predict(X_test)
 
