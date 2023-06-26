@@ -12,9 +12,9 @@ import matplotlib.pyplot as plt
 import pandas as pd
 
 # veri kümesi
-veri = pd.read_csv('Social_Network_Ads.csv')
-X = veri.iloc[:, [2, 3]].values
-y = veri.iloc[:, 4].values
+data = pd.read_csv('Social_Network_Ads.csv')
+X = data.iloc[:, [2, 3]].values
+y = data.iloc[:, 4].values
 
 # eğitim ve test kümelerinin bölünmesi
 from sklearn.model_selection import train_test_split
